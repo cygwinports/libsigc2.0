@@ -1,0 +1,7 @@
+category: Doc
+external-source: libsigc++20
+sdesc: "C++ typesafe callback library (API documentation)"
+ldesc: "libsigc++ implements a typesafe callback system for standard 
+C++. It allows you to define signals and to connect those signals to any
+callback function, either global or a member function, regardless of
+whether it is static or virtual."
