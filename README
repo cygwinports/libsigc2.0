@@ -1,4 +1,4 @@
-libsigc++20
+libsigc2.0
 ------------------------------------------
 libsigc++ implements a typesafe callback system for standard C++. It
 allows you to define signals and to connect those signals to any 
@@ -6,17 +6,17 @@ callback function, either global or a member function, regardless of
 whether it is static or virtual.
 
 Runtime requirements:
-  cygwin-1.5.25-11
+  cygwin-1.5.25-15
 
 Build requirements:
-  autoconf2.5-2.61-1
-  automake1.10-1.10.1-1
-  binutils-20060817-1
-  cygport-0.3.11-1
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-2
+  binutils-20080624-2
+  cygport-0.4.3-1
   gawk-3.1.6-1
   gcc-core-3.4.4-3
   gcc-g++-3.4.4-3
-  libtool-2.2.2-2
+  libtool-2.2.6a-1
   make-3.81-1
   sed-4.1.5-2
 
@@ -30,33 +30,33 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libsigc++20-2.2.2-1-src.tar.bz2
+  unpack libsigc2.0-2.2.3-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libsigc++20-2.2.2-1.cygport all
+  cygport ./libsigc2.0-2.2.3-1.cygport all
 
 This will create:
-  /usr/src/libsigc++20-2.2.2-1.tar.bz2
-  /usr/src/libsigc++20-2.2.2-1-src.tar.bz2
-  /usr/src/libsigc++20-devel-2.2.2-1.tar.bz2
-  /usr/src/libsigc++20-doc-2.2.2-1.tar.bz2
+  /usr/src/libsigc2.0-2.2.3-1-src.tar.bz2
+  /usr/src/libsigc2.0_0-2.2.3-1.tar.bz2
+  /usr/src/libsigc2.0-devel-2.2.3-1.tar.bz2
+  /usr/src/libsigc2.0-doc-2.2.3-1.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary packages:
 
-(libsigc++20)
+(libsigc2.0_0)
   /usr/bin/cygsigc-2.0-0.dll
-  /usr/share/doc/libsigc++20-2.2.2/AUTHORS
-  /usr/share/doc/libsigc++20-2.2.2/COPYING
-  /usr/share/doc/libsigc++20-2.2.2/ChangeLog
-  /usr/share/doc/libsigc++20-2.2.2/INSTALL
-  /usr/share/doc/libsigc++20-2.2.2/NEWS
-  /usr/share/doc/libsigc++20-2.2.2/README
-  /usr/share/doc/libsigc++20-2.2.2/TODO
+  /usr/share/doc/libsigc2.0-2.2.3/AUTHORS
+  /usr/share/doc/libsigc2.0-2.2.3/COPYING
+  /usr/share/doc/libsigc2.0-2.2.3/ChangeLog
+  /usr/share/doc/libsigc2.0-2.2.3/INSTALL
+  /usr/share/doc/libsigc2.0-2.2.3/NEWS
+  /usr/share/doc/libsigc2.0-2.2.3/README
+  /usr/share/doc/libsigc2.0-2.2.3/TODO
 
-(libsigc++20-devel)
+(libsigc2.0-devel)
   /usr/include/sigc++-2.0/sigc++/adaptors/adaptor_trait.h
   /usr/include/sigc++-2.0/sigc++/adaptors/adaptors.h
   /usr/include/sigc++-2.0/sigc++/adaptors/bind.h
@@ -131,7 +131,7 @@ Files included in the binary packages:
   /usr/lib/sigc++-2.0/include/sigc++config.h
 
 
-(libsigc++20-doc)
+(libsigc2.0-doc)
   /usr/share/doc/libsigc-2.0/docs/images/*
   /usr/share/doc/libsigc-2.0/docs/index.html
   /usr/share/doc/libsigc-2.0/docs/reference/html/*
@@ -140,6 +140,9 @@ Files included in the binary packages:
 --------------------
 
 Port Notes:
+
+----- version 2.2.3-1 -----
+Version bump for GNOME 2.24.
 
 ----- version 2.2.2-1 -----
 Version bump for GNOME 2.20.
