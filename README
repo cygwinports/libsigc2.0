@@ -6,18 +6,20 @@ callback function, either global or a member function, regardless of
 whether it is static or virtual.
 
 Runtime requirements:
-  cygwin-1.5.25-15
+  cygwin-1.7.0-43
+  libgcc1-4.3.2-2
+  libstdc++6-4.3.2-2
 
 Build requirements:
-  autoconf2.5-2.63-1
-  automake1.10-1.10.1-2
+  autoconf2.5-2.63-10
+  automake1.10-1.10.1-10
   binutils-20080624-2
-  cygport-0.4.3-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  gcc-g++-3.4.4-3
-  libtool-2.2.6a-1
-  make-3.81-1
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  gcc4-g++-4.3.2-2
+  libtool-2.2.7a-1
+  make-3.81-2
   sed-4.1.5-2
 
 Canonical homepage:
@@ -48,13 +50,13 @@ Files included in the binary packages:
 
 (libsigc2.0_0)
   /usr/bin/cygsigc-2.0-0.dll
-  /usr/share/doc/libsigc2.0-2.2.3/AUTHORS
-  /usr/share/doc/libsigc2.0-2.2.3/COPYING
-  /usr/share/doc/libsigc2.0-2.2.3/ChangeLog
-  /usr/share/doc/libsigc2.0-2.2.3/INSTALL
-  /usr/share/doc/libsigc2.0-2.2.3/NEWS
-  /usr/share/doc/libsigc2.0-2.2.3/README
-  /usr/share/doc/libsigc2.0-2.2.3/TODO
+  /usr/share/doc/libsigc2.0/AUTHORS
+  /usr/share/doc/libsigc2.0/COPYING
+  /usr/share/doc/libsigc2.0/ChangeLog
+  /usr/share/doc/libsigc2.0/INSTALL
+  /usr/share/doc/libsigc2.0/NEWS
+  /usr/share/doc/libsigc2.0/README
+  /usr/share/doc/libsigc2.0/TODO
 
 (libsigc2.0-devel)
   /usr/include/sigc++-2.0/sigc++/adaptors/adaptor_trait.h
@@ -141,32 +143,8 @@ Files included in the binary packages:
 
 Port Notes:
 
------ version 2.2.3-1 -----
-Version bump for GNOME 2.24.
-
------ version 2.2.2-1 -----
-Version bump for GNOME 2.20.
-
------ version 2.1.1-1 -----
-Version bump for GNOME 2.20.
-
------ version 2.0.18-1 -----
-Version bump, built with cygport.
-
------ version 2.0.17-1 -----
-Version bump.
-
------ version 2.0.16-1 -----
-Version bump, built with gcc-3.4.
-
------ version 2.0.10-1 -----
-Version bump. API docs now installed into the default location.
-
------ version 2.0.6-1 -----
-Sync to upstream version; see ChangeLog and NEWS for details.
-
------ version 2.0.3-1 -----
-Initial release for Cygwin.
+----- version 2.2.3-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
