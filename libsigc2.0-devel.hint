@@ -1,5 +1,5 @@
 category: Libs
-requires: cygwin libsigc2.0_0 libstdc++6-devel
+requires: libsigc2.0_0 libstdc++6-devel
 external-source: libsigc2.0
 sdesc: "C++ typesafe callback library (development files)"
 ldesc: "libsigc++ implements a typesafe callback system for standard 
