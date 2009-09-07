@@ -6,20 +6,21 @@ callback function, either global or a member function, regardless of
 whether it is static or virtual.
 
 Runtime requirements:
-  cygwin-1.7.0-43
+  cygwin-1.7.0-60
   libgcc1-4.3.2-2
   libstdc++6-4.3.2-2
 
 Build requirements:
   autoconf2.5-2.63-10
-  automake1.10-1.10.1-10
-  binutils-20080624-2
-  cygport-0.9.6-1
-  gawk-3.1.6-2
+  automake1.10-1.10.2-10
+  binutils-2.19.51-1
+  cygport-0.9.9-1
+  gawk-3.1.7-1
   gcc4-core-4.3.2-2
   gcc4-g++-4.3.2-2
-  libtool-2.2.7a-1
+  libtool-2.2.7a-14
   make-3.81-2
+  mm-common-0.7.2-1
   sed-4.1.5-2
 
 Canonical homepage:
@@ -32,17 +33,17 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libsigc2.0-2.2.3-1-src.tar.bz2
+  unpack libsigc2.0-2.2.4.2-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libsigc2.0-2.2.3-1.cygport all
+  cygport ./libsigc2.0-2.2.4.2-1.cygport all
 
 This will create:
-  /usr/src/libsigc2.0-2.2.3-1-src.tar.bz2
-  /usr/src/libsigc2.0_0-2.2.3-1.tar.bz2
-  /usr/src/libsigc2.0-devel-2.2.3-1.tar.bz2
-  /usr/src/libsigc2.0-doc-2.2.3-1.tar.bz2
+  /usr/src/libsigc2.0-2.2.4.2-1-src.tar.bz2
+  /usr/src/libsigc2.0_0-2.2.4.2-1.tar.bz2
+  /usr/src/libsigc2.0-devel-2.2.4.2-1.tar.bz2
+  /usr/src/libsigc2.0-doc-2.2.4.2-1.tar.bz2
 
 -------------------------------------------
 
@@ -134,14 +135,18 @@ Files included in the binary packages:
 
 
 (libsigc2.0-doc)
-  /usr/share/doc/libsigc-2.0/docs/images/*
-  /usr/share/doc/libsigc-2.0/docs/index.html
-  /usr/share/doc/libsigc-2.0/docs/reference/html/*
-  /usr/share/doc/libsigc-2.0/docs/tutorial/html/*
+  /usr/share/devhelp/books/libsigc++-2.0/libsigc++-2.0.devhelp2
+  /usr/share/doc/libsigc++-2.0/docs/images/*
+  /usr/share/doc/libsigc++-2.0/docs/index.html
+  /usr/share/doc/libsigc++-2.0/docs/reference/html/*
+  /usr/share/doc/libsigc++-2.0/docs/tutorial/html/*
 
 --------------------
 
 Port Notes:
+
+----- version 2.2.4.2-1 -----
+Version bump.
 
 ----- version 2.2.3-10 -----
 Initial release for Cygwin 1.7.
