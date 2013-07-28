@@ -1,0 +1,18 @@
+ORIG_PN="libsigc++"
+inherit gtkmm
+
+NAME="libsigc2.0"
+VERSION=2.2.11
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="C++ typesafe callback library"
+DESCRIPTION="libsigc++ implements a typesafe callback system for standard C++.
+It allows you to define signals and to connect those signals to any callback
+function, either global or a member function, regardless of whether it is
+static or virtual."
+HOMEPAGE="http://libsigc.sourceforge.net/"
+
+PKG_NAMES="${NAME}_0 ${NAME}-devel ${NAME}-doc"
+libsigc2_0_0_CONTENTS="usr/bin/*-2.0-0.dll usr/share/doc/${NAME}/"
+libsigc2_0_devel_CONTENTS='usr/include/ usr/lib/'
+libsigc2_0_doc_CONTENTS='usr/share/devhelp/ usr/share/doc/libsigc++-2.0/'
