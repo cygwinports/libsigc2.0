@@ -2,7 +2,7 @@ ORIG_PN="libsigc++"
 inherit gtkmm
 
 NAME="libsigc2.0"
-VERSION=2.2.11
+VERSION=2.4.0
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="C++ typesafe callback library"
